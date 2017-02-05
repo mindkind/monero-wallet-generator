@@ -10748,7 +10748,7 @@ bC0zLjUsMjAuNGgtNkwyNDQuOCwzMTAuNkwyNDQuOCwzMTAuNnoiLz4KPC9nPgo8L3N2Zz4K">
         <div class="col s5 offset-s1">
                 <input class="btn deep-orange" type="button" onclick="js:genwallet_prefix();" value="Generate wallet with prefix" action="" id="gen_prefix_widget"/>
                 <p>(very slow for more than a few characters)</p>
-                <input type="text" id="prefix_widget" oninput="js:check_prefix_validity()"; onKeyPress="if (event.keyCode == 13) js:genwallet_prefix(null);" />
+                <input type="text" value="4" id="prefix_widget" oninput="js:check_prefix_validity()"; onKeyPress="if (event.keyCode == 13) js:genwallet_prefix();" />
         </div>
     </div>
     <div class="row center-align">
